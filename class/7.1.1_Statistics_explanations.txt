@@ -1,0 +1,58 @@
+In data analysis, it is essential to understand and use various statistical measures to correctly interpret information. These measures help summarize and describe the main characteristics of a dataset, enabling informed decision-making. Some of the most common statistical measures and their associated formulas are as follows:
+	1.	Mean (Average)
+The arithmetic mean is calculated by adding all the values in a dataset and dividing by the total number of values.
+
+Formula:
+
+\text{Mean} = \frac{\sum_{i=1}^{n} x_i}{n}
+
+Where:
+	•	 n  is the total number of values.
+	•	 x_i  represents each individual value in the dataset.
+
+	2.	Median
+The median is the value that separates the upper half from the lower half of an ordered dataset.
+
+	•	If  n  (the number of observations) is odd, the median is the value at position  \frac{n+1}{2}  after ordering the data.
+	•	If  n  is even, the median is the average of the two central values:
+
+\text{Median} = \frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}
+
+
+	3.	Mode
+The mode is the value that appears most frequently in a dataset. There is no specific formula for mode; it is determined by counting the frequency of each value and selecting the one with the highest frequency.
+	4.	Standard Deviation
+The standard deviation measures the dispersion of data relative to the mean. It is calculated as the square root of the variance.
+
+Formula:
+
+\text{Standard Deviation} = \sqrt{\frac{\sum_{i=1}^{n}(x_i - \mu)^2}{n}}
+
+Where:
+	•	 \mu  is the mean of the data.
+	•	 x_i  represents each individual value.
+	•	 n  is the total number of values.
+
+	5.	Variance
+The variance is the average of the squared differences between each value and the dataset’s mean.
+
+Formula:
+
+\text{Variance} = \frac{\sum_{i=1}^{n}(x_i - \mu)^2}{n}
+
+	6.	Maximum and Minimum
+
+	•	Maximum ( \max(x) ): The highest value in a dataset.
+	•	Minimum ( \min(x) ): The lowest value in a dataset.
+
+	7.	Range
+The range is the difference between the maximum and minimum values in a dataset.
+
+Formula:
+
+\text{Range} = \max(x) - \min(x)
+
+
+These mathematical formulas allow for basic statistical analysis of any dataset, such as monthly sales in a business, and are fundamental for drawing conclusions and making data-driven decisions.
+
+By applying these measures, you can extract valuable insights and make informed decisions, which is crucial for success in various fields, from scientific research to business management.
